@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npm install && npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_URL": "https://basetipjar.vercel.app",
+    "NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID": "demo"
+  }
+}
